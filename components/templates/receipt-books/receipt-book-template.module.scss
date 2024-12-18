@@ -1,0 +1,11 @@
+.d-container {
+  @apply container;
+  @apply mx-auto;
+  @apply min-h-[calc(100vh-262px)];
+  @apply p-5;
+  &__search-cta {
+    @apply flex;
+    @apply items-center;
+    @apply justify-between;
+  }
+}
